@@ -1,0 +1,14 @@
+<!--<Label text="gmcks"></Label>-->
+<Label text="{{data[0].title}}" color="#fff"></Label>
+<ScrollView>
+    <StackLayout>
+        <StackLayout *ngFor="let item of data; let i = index" margin="20" >
+            <!--                <Label text="{{item.email}}"></Label>-->
+            <Label text="{{item.title}}" androidElevation="7"></Label>
+        </StackLayout>
+    </StackLayout>
+</ScrollView>
+
+
+
+
